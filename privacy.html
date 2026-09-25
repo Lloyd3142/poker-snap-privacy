@@ -45,8 +45,8 @@
 
 <h2>Advertising</h2>
 <p>Poker Snap shows one kind of advert, and only when you ask for it. When a run ends you may be offered a rewarded advert in exchange for carrying on with one life. Nothing plays during a table, nothing plays between hands, and there are no banners anywhere in the game. A run that takes the extra life is kept off every score board.</p>
-<p>The adverts come from <strong>Unity LevelPlay</strong> (formerly ironSource) with Unity Ads as the advertising network. Their software starts when the game starts, which means it reads your device's advertising id from the first launch onwards <em>whether or not you ever watch an advert</em>. That id, along with coarse details such as your device model, operating system, country and connection type, goes to the advertising network so it can choose an advert and count whether it was shown. On Android the game therefore declares the permissions <code>AD_ID</code>, <code>ACCESS_ADSERVICES_TOPICS</code> and <code>ACCESS_ADSERVICES_ATTRIBUTION</code>.</p>
-<p><strong>Personalised adverts are off unless you turn them on.</strong> The game does not assume your consent from silence: unless you switch it on yourself in Settings, under Personalised ads, the adverts you see are not chosen from your interests. Your answer is remembered on the device and shared by every profile on it, and you can change it whenever you like.</p>
+<p>The adverts come from <strong>Unity LevelPlay</strong> (formerly ironSource) with Unity Ads as an advertising network. The first time you open the game it asks whether you allow personalised adverts, and their software does not start until you have answered. Once it has started it reads your device's advertising id <em>whether or not you ever watch an advert</em>, and whichever way you answered. That id, along with coarse details such as your device model, operating system, country and connection type, goes to the advertising network so it can choose an advert and count whether it was shown. If you close the question without answering, no adverts are loaded at all and it is asked again the next time you open the game. On Android the game declares the permissions <code>AD_ID</code>, <code>ACCESS_ADSERVICES_TOPICS</code> and <code>ACCESS_ADSERVICES_ATTRIBUTION</code>.</p>
+<p><strong>Personalised adverts only with your yes.</strong> The two answers to the first-launch question are equal: Allow means the adverts may be chosen from your interests, Don't allow means they are not. The game does not assume your consent from silence. Your answer is remembered on the device and shared by every profile on it, and you can change it whenever you like in Settings, under Personalised ads.</p>
 <p>Your advertising id belongs to the device, not to the game. Android lets you reset it, or delete it altogether, in the system Settings under Privacy and then Ads; deleting it stops the game and its advertising network receiving one. What Unity does with advertising data is described in the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity player privacy policy</a>.</p>
 
 <h2>Children</h2>
@@ -61,6 +61,6 @@
 <h2>Changes and contact</h2>
 <p>If this policy changes, the date below changes with it and the new version ships with the game. Questions go to the developer contact listed on the store page.</p>
 
-<footer>Cardboard Elephant · last updated 23 September 2026</footer>
+<footer>Cardboard Elephant · last updated 25 September 2026</footer>
 </body>
 </html>
